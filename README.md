@@ -5,36 +5,34 @@ Bootstrap-Backbone-RequireJS-Express Boilerplate
 
 Download ZIP file or clone this repository.
 
-cd to directory where the files are installed on your system.
+cd to directory where repository was cloned or files were unzipped.
 
-**Note: This app uses npm to install node modules.  
+The following files should be present
+
+    $ls
+    LICENSE		bower.json	package.json	routes		views README.md	css		public		server.js
+
+**Note: npm is used to install node modules.  
 [node] needs to be installed and working on your system.
 **
 
 We use [bower] to install all  client side libraries (backbone.js, require.js etc.)
 
-### Install bower
+### Install bower (if not already installed)
     $ npm install -g bower (may need to run as root)
     
-### Install node modules
-    $ ls
-    LICENSE  README.md  README.txt  v1  v2
-    
-    $ cd v2
-    $ ls
-    bower.json package.json  public  README.txt  server.js
-    
+### Install server side modules
     $ npm install (may need to run as root)
+    
+### Install client side modules
     $ bower install (shouldn't need to run as root)
     
-
 ### Start node web server
     $ node server
-    my-contacts server listening on port 3000
+    Express server listening on port 3000
 
 ### Launch app
 To launch app, point your browser to localhost:3000
-
 
 [Backbone.js]:http://backbonejs.org/
 [node]:http://nodejs.org
