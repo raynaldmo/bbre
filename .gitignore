@@ -1,0 +1,8 @@
+.idea/workspace.xml
+node_modules/
+development/
+public/js/bower_components/
+public/css/bootstrap.css
+public/js/bower_components/
+public/less/
+README.txt
